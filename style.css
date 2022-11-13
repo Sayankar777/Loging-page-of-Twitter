@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap');
+* {
+    caret-color: red;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sono', sans-serif;
+    background-color: #ecf0f3;
+}
+.container {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 16px 16px 20px #cbced1,-16px -16px 20px white;
+}
+.Brand-logo {
+    width: 100px;
+    height: 100px;
+    background: url(https://img.icons8.com/color/100/000000/twitter--v2.png);
+    border-radius: 50px;
+    box-shadow: 16px 16px 20px #cbced1,-16px -16px 20px white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Brand-title {
+    font-weight: 900;
+    font-size: 1.8rem;
+    color:  #1DA1F2;
+    margin: auto;
+}
+.input {
+    text-align: left;
+    margin: 20px;
+}
+label,input,button {
+    display: box;
+    border-radius: 20px;
+    width: 100%;
+    border: none;
+}
+label {
+    margin-bottom: 4px;
+}
+label:nth-of-type(2) {
+    margin-top: 12px;
+  }
+  
+input::placeholder {
+    color: gray;
+  }
+input {
+    background-color: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+#submit {
+    color: white;
+    margin-top: 20px;
+    background: #1DA1F2;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5;
+    width: 75%;
+    margin-left: 35px;
+}
+#ForgotPassword {
+    color: white;
+    margin-top: 20px;
+    background: teal;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5;
+    width: 75%;
+    margin-left: 35px;
+}
+.or {
+    margin-left: 130px;
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    font-weight: bolder;
+}
